@@ -1,0 +1,30 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+  }
+
+  @font-face {
+    font-family: 'Outfit'; 
+    src: url('C:\Users\ginos\Desktop\QR Code\Outfit-Regular.ttf') format('ttf'),
+  }
+
+  table {
+    width: auto;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden; 
+    align-content: center;
+  }
+
+th {
+    background-color: hsl(0, 0%, 100%);
+    padding: 8px;
+    width: auto;
+    text-align: center;
+    font-size: 15px;
+    font-style: 'Outfit', serif;
+    font-weight: 400;
+    align-content: center;
+  }
+
+
+  
