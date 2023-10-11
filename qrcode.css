@@ -2,10 +2,18 @@ body {
     background-color: hsl(212, 45%, 89%);
   }
 
-  @font-face {
-    font-family: 'Outfit'; 
-    src: url('C:\Users\ginos\Desktop\QR Code\Outfit-Regular.ttf') format('ttf'),
+@font-face {
+    font-family: 'Outfit';
+    font-weight: 400; 
+    src: url('./Outfit-Regular.ttf') format('truetype'),
   }
+
+  @font-face {
+    font-family: 'Outfit';
+    font-weight: 700; 
+    src: url('./Outfit-Regular.ttf') format('truetype'),
+  }
+
 
   table {
     width: auto;
@@ -13,6 +21,9 @@ body {
     border-radius: 10px;
     overflow: hidden; 
     align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
   }
 
 th {
@@ -21,7 +32,7 @@ th {
     width: auto;
     text-align: center;
     font-size: 15px;
-    font-style: 'Outfit', serif;
+    font-family: 'Outfit', serif;
     font-weight: 400;
     align-content: center;
   }
